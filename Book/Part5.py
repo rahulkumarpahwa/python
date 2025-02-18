@@ -23,3 +23,23 @@ if age < 18 :
 else : 
     status = "adult"
 print(status)
+
+
+################################
+if -5>3:
+   print("there is pass below")
+elif 5> 3 : 
+    pass
+else : 
+    print("There is pass above.")
+    
+    
+print("################################################################")    
+
+print("Practice Session")
+qty = int(input("enter the quantity "))
+price = float(input("Enter the price "))
+dis = 10 if qty > 1000 else 0 
+totalExpense = qty * price - qty * price * dis / 100
+print("Total Expense = Rs." + str(totalExpense))
+
