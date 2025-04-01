@@ -1,0 +1,3 @@
+this is a random text to be generated and to be learned/ read from a function.
+this is second line.
+this is third line to be read by the function readlines.
