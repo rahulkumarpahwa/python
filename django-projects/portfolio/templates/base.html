@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="/static/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container top">
+        <img src="/static/logo.webp" class="profile-img"></img>
+        <h1>Rahul Kumar</h1>
+      </div>
+    </header>
+    <div class="hero">
+      <img src="/static/rahul.webp" alt="Rahul Kumar" class="profile-img" />
+      <h4>MCA student at Panjab University, Chandigarh</h4>
+    </div>
+    <div class="container">
+      <main>{% block main %}{% endblock main %}</main>
+    </div>
+    <footer>
+      <div class="container">
+        <p>&copy; Rahul Kumar 2025-26. All Rights Reserved.</p>
+        <p>
+          Connect with Me:
+          <a href="https://www.linkedin.com/in/rahulkumarpahwa" target="_blank">LinkedIn</a> |
+          <a href="https://www.github.com/rahulkumarpahwa" target="_blank">GitHub</a> |
+          <a href="https://rahulkumarpahwa.hashnode.dev/" target="_blank">Hashnode</a> |
+          <a href="https://rahulkumarpahwa.vercel.app" target="_blank">Portfolio</a> |
+          <a href="mailto:rahulkumarpahwa@gmail.com" target="_blank">Email</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
